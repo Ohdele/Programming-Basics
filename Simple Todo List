@@ -1,5 +1,11 @@
 def todo_list():
     tasks = []
+    
+    # Adding tasks
+    tasks.append("Task 1")
+    tasks.append("Task 2")
+    tasks.append("Task 3")
+
     while True:
         print("Todo List:")
         for index, task in enumerate(tasks, start=1):
@@ -9,14 +15,14 @@ def todo_list():
         print("1. Add task")
         print("2. Remove task")
         print("3. Quit")
-        choice = input("Enter your choice: ")
+        choice = '2'  # Change this line to test different choices
 
         if choice == '1':
             task = input("Enter task: ")
             tasks.append(task)
         elif choice == '2':
             if tasks:
-                task_index = int(input("Enter task number to remove: ")) - 1
+                task_index = 1  # Change this line to test different task indices
                 if 0 <= task_index < len(tasks):
                     del tasks[task_index]
                 else:
