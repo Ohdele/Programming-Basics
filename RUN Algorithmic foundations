@@ -1,0 +1,12 @@
+To run these examples:
+
+Copy the entire script for the example you want to try.
+Paste it into a new file in Visual Studio Code (or any text editor).
+Save the file with a .py extension, for example, linear_search.py.
+Open a terminal or command prompt.
+Navigate to the directory where you saved the file using the cd command.
+Run the script using the python command followed by the file name:
+bash
+Copy code
+python linear_search.py
+Replace linear_search.py with the name of the file you saved.
